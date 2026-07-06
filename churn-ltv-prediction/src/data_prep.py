@@ -77,7 +77,7 @@ def main():
     y_train.to_csv('data/processed/y_train.csv', index=False)
     y_test.to_csv('data/processed/y_test.csv', index=False)
     
-    print("✅ Data preparation complete. Processed files saved to data/processed/")
+    print("Data preparation complete. Processed files saved to data/processed/")
 
 if __name__ == "__main__":
     main()
